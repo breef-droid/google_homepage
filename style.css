@@ -1,0 +1,37 @@
+body{
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+div.header{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+a.top-left{
+    margin-left: 15px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+
+div.top-center{
+    flex-grow: 1;
+}
+
+div.top-right{
+    padding-left: 0;
+    padding-right: 15px;
+    float: right;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+a.app-selector{
+    line-height: normal;
+}
